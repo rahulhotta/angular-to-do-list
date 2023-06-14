@@ -1,0 +1,26 @@
+.input__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5vh;
+}
+.input__form__input{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 5px;
+    margin: 5px;
+}
+.input__form__btn{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.input__form__btn:hover{
+    background-color: white;
+    color: black;
+}

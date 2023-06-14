@@ -1,0 +1,6 @@
+<div class="task__card__container">
+  {{ task.name }}
+  <div class="task__card__buttons">
+    <button class="task__card__button" (click)="deleteHandler(task.id)"><fa-icon [icon]="deleteIcon"></fa-icon></button>
+  </div>
+</div>
